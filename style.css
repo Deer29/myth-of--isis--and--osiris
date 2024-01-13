@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@600&display=swap');
+
+@media (min-width:460px) and (max-width:1600px){
+    body{
+    background-size: cover;
+    background-image: url(./photo/hur.jpg)
+}
+}
+h1{
+    font-family: 'Rubik Moonrocks', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(216, 162, 91);
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px burlywood;
+
+}
+pre{
+    font-family: 'Noto Sans Symbols', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+}  
+div{
+    background-color: burlywood;
+    border: inset burlywood;
+    width: fit-content;
+}
+    footer{
+        clear: both;
+        font-weight: bolder;
+    }
